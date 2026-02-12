@@ -1,0 +1,77 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Virtual Environment ---
+venv/
+.venv/
+env/
+.env/
+ENV/
+bin/
+include/
+lib/
+share/
+
+# --- Datasets (Large Files) ---
+data/
+data/raw/
+data/processed/
+data/augmented/
+
+# --- Models & Outputs ---
+outputs/
+*.h5
+*.keras
+*.tflite
+*.pt
+*.pth
+*.onnx
+*.weights
+*.pb
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# --- Logs & Visualization ---
+logs/
+*.log
+tfevents*
+
+# --- IDE & System ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.project
+.pydevproject
+.settings/
+
+# --- OS temporary files ---
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
