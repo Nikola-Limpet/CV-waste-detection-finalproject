@@ -1,0 +1,15 @@
+data/
+notebooks/
+venv/
+.git/
+.cuda/
+__pycache__/
+*.ipynb
+*.log
+*.pyc
+libdevice.10.bc
+outputs/
+
+# Override .gitignore: include deployment models
+!app/models/
+!app/models/*.keras

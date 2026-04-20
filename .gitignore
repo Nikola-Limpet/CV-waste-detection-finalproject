@@ -50,6 +50,10 @@ outputs/
 *.weights
 *.pb
 
+# Keep deployment models for Railway
+!app/models/
+!app/models/*.keras
+
 # --- Jupyter Notebooks ---
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
@@ -57,6 +61,7 @@ outputs/
 # --- Logs & Visualization ---
 logs/
 *.log
+*log.txt
 tfevents*
 
 # --- IDE & System ---
@@ -68,6 +73,7 @@ Thumbs.db
 *~
 .project
 .pydevproject
+CLAUDE.md
 .settings/
 
 # --- OS temporary files ---
@@ -75,3 +81,9 @@ Thumbs.db
 .directory
 .Trash-*
 .nfs*
+
+# --- Environment & Cache ---
+.cuda/
+.gradio/
+pptx-workspace/
+libdevice.10.bc

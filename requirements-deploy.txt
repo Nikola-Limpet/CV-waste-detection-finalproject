@@ -1,0 +1,9 @@
+tensorflow-cpu>=2.15
+gradio>=4.0
+opencv-python-headless
+numpy<2.0
+Pillow
+scikit-learn
+pandas
+matplotlib
+requests
